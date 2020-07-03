@@ -1,4 +1,4 @@
 From nginx
   
-RUN rm -rf /usr/local/share/nginx/html/*
-COPY index.html /usr/local/share/nginx/html/index.html
+RUN rm -rf /usr/share/nginx/html/*
+COPY index.html /usr/share/nginx/html/index.html
